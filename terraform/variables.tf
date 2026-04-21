@@ -16,16 +16,6 @@ variable "environment" {
   }
 }
 
-variable "resource_suffix" {
-  description = "Optional suffix appended to {project_name}-{environment} for parallel stacks (e.g. auto). Leave empty for the default prefix."
-  type        = string
-  default     = ""
-  validation {
-    condition     = var.resource_suffix == "" || can(regex("^[a-z0-9-]+$", var.resource_suffix))
-    error_message = "resource_suffix must be empty or contain only lowercase letters, numbers, and hyphens."
-  }
-}
-
 variable "bedrock_model_id" {
   description = "Bedrock model ID"
   type        = string

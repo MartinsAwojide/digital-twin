@@ -7,16 +7,13 @@ locals {
     "www.${var.root_domain}"
   ] : []
 
-  name_prefix = var.resource_suffix != "" ? "${var.project_name}-${var.environment}-${var.resource_suffix}" : "${var.project_name}-${var.environment}"
+  name_prefix = "${var.project_name}-${var.environment}"
 
-  common_tags = merge(
-    {
-      Project     = var.project_name
-      Environment = var.environment
-      ManagedBy   = "terraform"
-    },
-    var.resource_suffix != "" ? { ResourceSuffix = var.resource_suffix } : {}
-  )
+  common_tags = {
+    Project     = var.project_name
+    Environment = var.environment
+    ManagedBy   = "terraform"
+  }
 }
 
 # S3 bucket for conversation memory
