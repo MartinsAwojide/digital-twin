@@ -69,7 +69,9 @@ jobs:
           ./scripts/deploy.sh ${{ github.event.inputs.environment || 'dev' }}
         env:
           AWS_ROLE_ARN: ${{ secrets.AWS_ROLE_ARN }}
-          
+          # Terraform variable openrouter_api_key → Lambda OPENROUTER_API_KEY (see terraform/variables.tf)
+          TF_VAR_openrouter_api_key: ${{ secrets.OPENROUTER_API_KEY }}
+
       - name: Get Deployment URLs
         id: deploy_outputs
         working-directory: ./terraform
