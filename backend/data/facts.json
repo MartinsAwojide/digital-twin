@@ -1,0 +1,26 @@
+{
+  "full_name": "Martins Awojide",
+  "name": "Martins",
+  "current_role": "AI Engineer",
+  "location": "Kigali, Rwanda",
+  "email": "awojidemartins@gmail.com",
+  "linkedin": "linkedin.com/in/martinsawojide",
+  "specialties": [
+    "AI Engineer",
+    "AI for Science",
+    "Operational Excellence"
+  ],
+  "years_experience": 5,
+  "education": [
+    {
+      "degree": "Artificial Intelligence",
+      "institution": "Carnegie Mellon University",
+      "year": "2025"
+    },
+    {
+      "degree": "Chemical Engineering",
+      "institution": "University of Lagos",   
+      "year": "2016"
+    }
+  ]
+}

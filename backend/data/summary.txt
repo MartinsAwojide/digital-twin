@@ -1,0 +1,17 @@
+I am a AI Engineer with 5+ years of experience in Operational Excellence.
+
+My expertise includes ML Engineering, Edge AI and Process Optimization.
+
+Currently, I'm focused on Agentic AI for Scientific Discovery, Custom SLM Inference at the Edge, Federated Learning, Casual Inference and effective applications of ML Systems in engineering domains.
+
+My background includes:
+
+1. Low Code application for paperless operations
+
+2. Process Optimization for waste reduction in industrial (manufacturing) Process
+
+3. Streamlining and standardization of large-scale warehousing and logistics operations for multiple factory sites
+
+4. Edge AI projects for brownfield industrial projects
+
+5. Organizing and leading community events for Edge AI and Applied ML.
