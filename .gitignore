@@ -5,6 +5,7 @@
 .terraform.lock.hcl
 terraform.tfstate.d/
 *.tfvars.secret
+*.tfvars
 
 # Lambda packages
 lambda-deployment.zip
@@ -41,3 +42,4 @@ Thumbs.db
 .aws/
 terraform/github-oidc.tf
 terraform/backend_setup.tf
+
